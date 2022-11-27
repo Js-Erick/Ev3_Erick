@@ -6,7 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  //nombre="Erick";
 
+  arregloComponentes = [
+  {nombre:"Rest-Api RickMorty",ruta:"/rest"},
+  {nombre:"Alimentos",ruta:"/rest2"}
+  ];
+  
   constructor() {}
-
-}
+} 
+ 
